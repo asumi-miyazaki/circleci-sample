@@ -1,0 +1,23 @@
+spring:
+  datasource:
+#    driver-class-name: org.h2.Driver
+#    url: jdbc:h2:mem:testdb;MODE=PostgreSQL;DATABASE_TO_LOWER=TRUE;DB_CLOSE_DELAY=-1  # H2DBをインメモリ、
+#    username: sa
+#    password:
+#    initialization-mode: always  # 常に以下のschema,dataのSQLを使って初期化
+#    #schema: classpath:schema.sql # test/resources/schema.sql ※書かなくてもresource直下にあるschema.sql,data.sqlが勝手に実行されるっぽい
+#    #data: classpath:data.sql     # test/resources/data.sql
+#    sql-script-encoding: utf-8
+
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/ec-202107a-test
+    username: postgres
+    password: postgres
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: sapec.tsukuba.ac.jp@gmail.com
+    password: dhhnkrhwpejcuxle
+    properties.mail.smtp.auth: true
+    properties.mail.smtp.starttls.enable: true

@@ -1,0 +1,16 @@
+@charset "UTF-8";
+.worldImage img {
+    border-radius: 50%;
+}
+
+.errorBody h2,p{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2{
+	font-size: 50px;
+}
+
+p{
+    font-size: 20px;
+}

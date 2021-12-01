@@ -1,0 +1,60 @@
+@charset "UTF-8";
+.addressInput {
+    width: 60%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.dateInput {
+    width: 60%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.item-img-center{
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.itemButton {
+	width: 15%;
+	margin: auto;
+}
+
+
+
+/* スクロールアニメーションで使用 */
+.scroll {
+  margin     : auto;
+  width      : 80%;
+  font-size  : 140%;
+  line-height: 1.5em;
+  text-align : center;
+  overflow   : hidden;
+}
+.scroll img{
+  display     : inline-block;
+  padding-left: 100%;
+  white-space : nowrap;
+  line-height : 1em;
+  animation   : scrollAnime 5s linear infinite;
+  width: 1000px;
+}
+@keyframes scrollAnime{
+    0% { transform: translateX(0)}
+  100% { transform: translateX(-100%)}
+}
